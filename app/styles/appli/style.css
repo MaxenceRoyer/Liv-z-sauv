@@ -1,11 +1,6 @@
-body 
-{
-    padding-top: 10px;
-    background-color: red;
-}
 [class*="col-"] 
 {
-    background-color: lightgreen;
+    background-color: skyblue;
     border: 2px solid black;
     border-radius: 6px;
     line-height: 40px;
