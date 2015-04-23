@@ -1,0 +1,18 @@
+body 
+{
+    padding-top: 10px;
+    background-color: red;
+}
+[class*="col-"] 
+{
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+}
+.row 
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
