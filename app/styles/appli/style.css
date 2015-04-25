@@ -3,11 +3,15 @@
     background-color: skyblue;
     border: 2px solid black;
     border-radius: 6px;
-    line-height: 40px;
+    line-height: 30px;
     text-align: center;
 }
 .row 
 {
     margin-right: 0px;
     margin-left: 0px;
+}
+
+p {
+    text-align: justify;
 }
