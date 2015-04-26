@@ -1,0 +1,10 @@
+.container_photo {
+    height:300px;
+    padding:20px;
+}
+
+.cadre_photo {
+    height:80%;
+    background-color:black;
+    margin-bottom:10px;
+}
