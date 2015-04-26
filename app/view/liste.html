@@ -7,6 +7,7 @@
     <title>Liv'z | Share your experience.</title>
     <link href="../styles/bootstrap/bootstrap.min.css" rel="stylesheet">
 	<link href="../styles/appli/style.css" rel="stylesheet">
+	<link href="../styles/appli/styleliste.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -19,31 +20,156 @@
 		</div>
 	</div>
     <div class="row">
-		<div class="col-xs-12">
-            <button id="button_room">Room</button>
-            <button id="button_theme">Thême</button>
+		<div class="col-xs-offset-2 col-xs-4 container_button">
+            <a href="#" class="btn btn-primary btn-primary">Room</a>
+        </div>
+		<div class="col-xs-4 container_button">
+            <a href="#" class="btn btn-primary btn-primary">Thême</a>
         </div>
 	</div>
     <div class="row">
-		<div class="col-xs-6">
-            <select >
-                <option value="theme1">Thême1</option>
-                <option value="theme2">Thême2</option>
-                <option value="theme3">Thême3</option>
-            </select>
-            <select>
-                <option value="soustheme1">SousThême1</option>
-                <option value="soustheme2">SousThême2</option>
-                <option value="soustheme3">SousThême3</option>
-            </select>
+		<div class="col-sm-offset-1 col-sm-5 col-xs-6">
+            <form class="form-horizontal">
+            <fieldset>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-xs-4 control-label" for="selectbasic">Thême</label>
+              <div class="col-md-4 col-xs-8">
+                <select id="selectbasic" name="selectbasic" class="form-control">
+                  <option value="1">Option one</option>
+                  <option value="2">Option two</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-xs-4 control-label" for="selectbasic">Sous-thême</label>
+              <div class="col-md-4 col-xs-8">
+                <select id="selectbasic" name="selectbasic" class="form-control">
+                  <option value="1">Option one</option>
+                  <option value="2">Option two</option>
+                </select>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
         </div>
-		<div class="col-xs-6">
-            Tri
+		<div class="col-sm-5 col-xs-6">
+            <form class="form-horizontal">
+            <fieldset>
+
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+              <label class="col-xs-4 control-label" for="radios">Trier par :</label>
+              <div class="col-md-5 col-sm-6 col-xs-8"> 
+                <label class="radio-inline" for="radios-0">
+                  <input type="radio" name="radios" id="radios-0" value="hote" checked="checked">
+                  Hôte
+                </label> 
+                <label class="radio-inline" for="radios-1">
+                  <input type="radio" name="radios" id="radios-1" value="room">
+                  Room
+                </label>
+              </div>
+            </div>
+
+            <!-- Search input-->
+            <div class="form-group">
+              <label class="col-xs-4 control-label" for="searchinput"></label>
+              <div class="col-md-4 col-xs-8">
+                <input id="searchinput" name="searchinput" type="search" placeholder="Entrez un nom..." class="form-control input-md">
+
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
         </div>
 	</div>
     <div class="row">
 		<div class="col-xs-12">
-            Liste Rooms
+            <p><h2>A</h2></p>
+            <div class="row">
+                <div class="col-xs-7">
+                    NomRoom (Hôte)
+                </div>
+                <div class="col-xs-5">
+                    <a href="#" class="btn btn-primary btn-primary">Voir</a>
+                    <a href="#" class="btn btn-primary btn-primary">Rejoindre</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7">
+                    NomRoom (Hôte)
+                </div>
+                <div class="col-xs-5">
+                    <a href="#" class="btn btn-primary btn-primary">Voir</a>
+                    <a href="#" class="btn btn-primary btn-primary">Rejoindre</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7">
+                    NomRoom (Hôte)
+                </div>
+                <div class="col-xs-5">
+                    <a href="#" class="btn btn-primary btn-primary">Voir</a>
+                    <a href="#" class="btn btn-primary btn-primary">Rejoindre</a>
+                </div>
+            </div>
+            <p><h2>B</h2></p>
+            <div class="row">
+                <div class="col-xs-7">
+                    NomRoom (Hôte)
+                </div>
+                <div class="col-xs-5">
+                    <a href="#" class="btn btn-primary btn-primary">Voir</a>
+                    <a href="#" class="btn btn-primary btn-primary">Rejoindre</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7">
+                    NomRoom (Hôte)
+                </div>
+                <div class="col-xs-5">
+                    <a href="#" class="btn btn-primary btn-primary">Voir</a>
+                    <a href="#" class="btn btn-primary btn-primary">Rejoindre</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7">
+                    NomRoom (Hôte)
+                </div>
+                <div class="col-xs-5">
+                    <a href="#" class="btn btn-primary btn-primary">Voir</a>
+                    <a href="#" class="btn btn-primary btn-primary">Rejoindre</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 hidden-lg hidden-md hidden-sm hidden-xs">
+            <div class="col-sm-4 container_case">
+                <a href="#">
+                    <div class="col-xs-12 container_theme">
+                    
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 container_case">
+                <a href="#">
+                    <div class="col-xs-12 container_theme">
+                    
+                    </div>
+                </a> 
+            </div>
+            <div class="col-sm-4 container_case">
+                <a href="#">
+                    <div class="col-xs-12 container_theme">
+                    
+                    </div>
+                </a>               
+            </div>
         </div>
 	</div>
 	
