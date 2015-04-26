@@ -8,3 +8,36 @@
     background-color:black;
     margin-bottom:10px;
 }
+
+ul {
+    margin-top:10px;
+    margin-bottom:10px;
+    list-style-type:none;
+    padding:0px;
+}
+
+a {
+    color:darkslategrey;
+}
+
+a:hover {
+    text-decoration:none;
+    color:lightgray;
+}
+
+li:hover {
+    background-color:black
+}
+
+.infos_choix {
+    text-align:left;
+}
+
+.texte_presentation {
+    padding-top:10px;
+}
+
+.textarea_presentation {
+    resize:none;
+}
+    
