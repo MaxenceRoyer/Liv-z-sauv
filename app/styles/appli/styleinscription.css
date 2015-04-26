@@ -1,0 +1,13 @@
+.btn_inscription {
+    width:100%;
+}
+
+.container_code {
+    padding:10px;
+    height:150px;
+}
+
+.cadre_code {
+    height:100%;
+    background-color: black;
+}

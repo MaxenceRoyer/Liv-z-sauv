@@ -1,0 +1,14 @@
+.container_case {
+    padding:10px;
+    height:200px;
+}
+
+.container_theme {
+    background-color:black;
+    height:100%;
+}
+
+.container_button {
+    height:70px;
+    padding-top:15px;
+}

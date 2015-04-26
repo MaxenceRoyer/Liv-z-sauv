@@ -33,8 +33,45 @@ h3 {
     line-height:20px;
 }
 
+.message_favoris {
+    overflow:auto;
+}
+
 .container_live {
-    margin:10px;
     background-color:black;
+    height:85%;
+}
+
+.partie_principal {
     height:400px;
+}
+
+.partie_secondaire {
+    height:200px;
+}
+
+.container_stream, .container_liste, .container_message, .container_news, .container_sondage {
+    height:100%;
+}
+
+.liste_actuel, .liste_favoris {
+    height:40%;
+    overflow:auto;
+}
+
+.titre_favoris, .titre_actuel, .titre_message {
+    height:10%; 
+}
+
+.titre_news, .titre_sondage {
+    height:20%;
+}
+
+.message_sondage, .message_news {
+    overflox:auto;
+    height:80%;
+}
+
+.button_voir {
+    padding:0px;
 }

@@ -1,0 +1,13 @@
+.container_barre {
+    height:300px;
+    padding:15px;
+}
+
+.image_barre {
+    height:100%;
+    background-color:black;
+}
+
+.btn_lien {
+    width:100%;
+}
