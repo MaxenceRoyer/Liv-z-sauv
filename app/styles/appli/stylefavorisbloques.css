@@ -22,10 +22,16 @@ li:hover {
     display:inline-block;
 }
 
-.liste_favoris > .row  {
+.case_nom {
+    width:90%;
     text-align:left;
 }
-
-.liste_favoris > .row > .btn_danger {
+.case_icon {
+    width:20%;
     text-align:right;
 }
+
+td {
+    padding:3px;
+}
+    
